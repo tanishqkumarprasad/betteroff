@@ -1,0 +1,33 @@
+Tried only one question this day and somehow found it too difficult that it consumed my time of about 2 hours.
+The two dishes question is still beyond my intelligence.
+The textcases outputs are right but complexity is n^2 which is for I have been warned.
+I think that the it also consist of logic failure as well.
+Need to thoroughly review it tommorrow.
+
+here is the snippet:
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T, N, S;
+    cin >> T;
+    for(int i = 0; i < T; i++)
+    {
+        cin >> N >> S;
+        int maxdiff = 0;
+        int diffmax;
+        for(int i =0; i <= N; i++)
+        {
+            for(int j =0; j<=N; j++)
+            {
+                if(i+j == S)
+                {
+                    diffmax = max({maxdiff, abs(i-j)});
+                    maxdiff = diffmax;
+                }
+            }
+        }
+        cout << diffmax << endl;
+    }
+	return 0;
+}
