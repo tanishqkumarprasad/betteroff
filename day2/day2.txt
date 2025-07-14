@@ -1,7 +1,7 @@
 Tried only one question this day and somehow found it too difficult that it consumed my time of about 2 hours.
 The two dishes question is still beyond my intelligence.
 The textcases outputs are right but complexity is n^2 which is for I have been warned.
-I think that the it also consist of logic failure as well.
+I think that it also consist of logic failure as well.
 Need to thoroughly review it tommorrow.
 
 here is the snippet:
