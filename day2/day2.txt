@@ -31,3 +31,8 @@ int main() {
     }
 	return 0;
 }
+
+
+Solved two more questions with over 1300 rating 1 star.
+Got some errors in edge cases and overall data handling issues.
+Learned something good from it.
