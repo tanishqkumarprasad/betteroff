@@ -10,6 +10,6 @@ total contest given :
 
 codechef = 2 (as of 16 july)
 
-codeforces = nil (planning to do so)
+codeforces = 1 (as of 17 july)
 
 leetcode = nil (brain not that strong)
